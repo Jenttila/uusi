@@ -20,18 +20,31 @@ img.bg {
   top: 0;
   left: 0;
 }
-p{
-  font-family: verdana;
-  font-size: 14pt;
-  font-style: normal;
-  letter-spacing: 1em;
-  word-spacing: 0.8em;
-  background: blue;
-  color: red;
-  font-family: courier;
-  font-size: 160%
+a:link{
+ color: blue;
   }
-p.part{
+a:hover{
+  color:red;
+}
+a:active{
+  color:brown;
+}
+a:focus{
+  color:yellow;
+}
+a.menuitems:link{
+ color: #668cff;
+  }
+a.menuitems:hover{
+  color: rgb(255,51,153);
+}
+a.menuitems:active{
+  color: #cc9900;
+}
+a.menuitems:focus{
+  color: #cccc00;
+}
+p{
   background: black;
   color: white;
   font-style: italic;
@@ -42,8 +55,8 @@ p.part{
 <img src="themostgenericbgimage.GIF" class="bg">
 <h1>This is a heading</h1>
 <p>This is a paragraph.</p>
-<p class="part">This is a class paragraph.</p>
-
+<p><a href="https://www.yle.fi/">Normal A Link</a></p>
+<p><a class="menuitmes" href="https://www.google.com/">The menuitemlink</a></p>
 
 </body>
 </html>
