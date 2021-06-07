@@ -5,7 +5,7 @@ html{
 p { 
    font-size: 12px; 
    color: green;
-   display: block;
+   display: inline;
    visibility: visible;
    box-shadow: 5px 10px #888888;
    margin-top: 100px;
