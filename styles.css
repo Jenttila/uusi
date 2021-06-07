@@ -3,6 +3,7 @@ html{
    color: white;
 }
 .styling { 
+   position: fixed;
    font-size: 12px; 
    color: green;
    display: block;
@@ -25,3 +26,10 @@ html{
 h1, h2{
    font-size: 20px;
    margin-bottom: 5%;
+   position: relative;
+h2{
+   position: static;
+   }
+div{
+   position: absolute;
+   }
