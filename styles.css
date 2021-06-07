@@ -2,25 +2,26 @@ html{
    background-color: aqua
    color: white;
 }
-p { 
+.styling { 
    font-size: 12px; 
    color: green;
-   display: inline;
+   display: block;
    visibility: visible;
    box-shadow: 5px 10px #888888;
-   margin-top: 100px;
+   margin-top: 150px;
    margin-right: 100px;
    margin-bottom: 100px;
-   margin-left: 100px;
-   padding-top: 30px;
-   padding-right: 30 px;
-   padding-bottom: 30 px;
-   padding-left: 30 px;
+   margin-left: 10px;
+   padding-top: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
    border-style: dotted;
    border-width: 2px;
    width: 100px;
    height: 100px;
-   border-radius: 50px 20px;
+   border-radius: 3px 2px;
    } 
-h1 {
-   font-size: 20px; 
+h1, h2{
+   font-size: 20px;
+   margin-bottom: 5%;
