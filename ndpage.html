@@ -14,7 +14,10 @@
       <p>With the mighty jumbotron in the beginning</p>
    </div>
    <script src="bootstrap.js"></script>
-<div class="alert alert-success" role="alert"> 
+<div class="alert alert-success alert.dismissible fade show" role="alert"> 
+   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+   </button>
    <b>Success!</b> Your message has been sent succesfully. 
 </div>
 <div class="alert alert-warning alert.dismissible fade show" role="alert"> 
@@ -23,10 +26,16 @@
    </button>
    <b>Warning!</b>There was a problem with your network connection.
 </div> 
-<div class="alert alert-primary" role="alert">
+<div class="alert alert-primary alert.dismissible fade show" role="alert"> 
+   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+   </button>
    <b>Note!</b> Please read the comments carefully
 </div>
-<div class="alert alert-danger" role="alert"> 
+<div class="alert alert-danger alert.dismissible fade show" role="alert"> 
+   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+   </button>
    <b>Error!</b> A problem has been occured while submitting your data. 
 </div> 
 </body>
