@@ -1,0 +1,23 @@
+ <!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Sample Page</title>
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="customs.css">
+   <style>
+</style>
+<div class="alert alert-success" role="alert"> 
+   Success! Your message has been sent succesfully. 
+</div>
+<div class="alert alert-warning" role="alert"> 
+   There was a problem with your network connection.
+</div> 
+<div class="alert alert-primary" role="alert">
+   Note! Please read the comments carefully
+</div>
+<div class="alert alert-danger" role="alert"> 
+    Error! A problem has been occured while submitting your data. 
+</div> 
