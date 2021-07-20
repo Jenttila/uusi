@@ -39,9 +39,23 @@
   </div>
 </nav>
 <hr>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Random body content button
+<div class="text-center">
+<button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="left" title="Tooltip on left">
+  Tooltip will appear on the left on hover
 </button>
+<hr>
+<button type="button" class="btn btn-danger" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+  Tooltip will appear on the right on hover
+</button>
+<hr>
+<button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+  Tooltip will appear on top on hover
+</button>
+<hr>
+<button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+  Tooltip will appear on bottom on hover
+</button>
+<hr>
 <p class="text-center">Skillset example using stacked progressbar</p>
 <div class="container p-3"  style="background-color: lightblue">
 <div class="progress">
@@ -53,6 +67,10 @@
 </div>
 </div>
 <br>
-  
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
 </body>
 </html>
